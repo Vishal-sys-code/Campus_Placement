@@ -1,0 +1,60 @@
+To perform various operations on variables and values, we use operators.  The value is called an operand, while the operation to be performed upon operands is called operators.
+
+sum = sum + 1;
+
+sum -> OPERAND
++/=   -> OPERATOR
+
+int total = a+b+c;
+
+total number operands: 4
+
+The operators are: 
+
++ : Addition 
+- : Substraction
+* : Multiplication
+/ : Division
+% : Modulo
+
+------------------------------------------------------------------------------------------------------------------------------------------
+RELATIONAL OPERATORS:
+
+== 	: equal to
+!=  	: not equal to
+>	: greater than
+<	: less than
+>=	: greater than equal to
+<=	: less than equal to
+
+Summary:
+
+Short-Circuiting:
+
+&& will not check second expression, if first expression is false
+|| will not check second expression, if first expression is true
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+BITWISE OPERATORS
+
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+ASSIGNMENT OPERATORS
+
+= 
++=
+-=
+*=
+/=
+%=
+>>=
+<<=
+&=
+|=
+^=
+------------------------------------------------------------------------------------------------------------------------------------------
+
+
+

@@ -1,0 +1,202 @@
+Q.) Identifiers are:
+
+A.) Identifiers are user defined names consisting of arbitarary long sequence of letters and digit with either or the underscore as a first character. It names must differ inspelling and case from any keywords. Identifiers are used as the general terminology for naming of variables, functions and arrays.
+
+---------------------------------------------------------------------------
+
+DATATYPES: 
+
+1.) Primitive: Integer, Character, Floating Point, Double Floating Point, Boolean, Void, Wild Character
+
+Valueless datatype: 
+	
+	Keyword to be used is void.
+
+Wild Character:
+
+	Keyword to be used is wchar_t
+	Stores characters including unicode characters
+	allocates 2 bytes in memory
+
+Integer: 2 bytes
+Character: 1 byte
+Floating: 4 bytes
+Double: 8 bytes
+Boolean: 1 byte
+
+---------------------------------------------------------------------------
+
+INPUT STATEMENT: 
+
+
+cin >> n;
+
+---------------------------------------------------------------------------
+
+MODIFIER:
+
+Modifiers extend the memory requires.
+
+A modifier is used to alter the meaning of the base type so that it more precisely fits the need of various situations.
+
+Data modifiers: signed, unsigned, long, short
+
+1.) Interger Type Modifiers: 
+
+	Short: 2(size)
+	unsigned short:2(size)
+	signed short:2(size)
+	int:2(size)
+	unsigned int:2(size)
+	signed int:2(size)
+	long:4(size)
+	unsigned long:4(size)
+	signed long:4(size)
+
+2.) Character Type Modifiers: 
+	char:1(size)
+	unsigned char:1(size)
+	signed char:1(size)
+
+3.) Floating point Type Modifiers: 
+	float:4(size)
+	double:8(size)
+	long double:10(size)
+
+int main(){
+	signed a,b;
+	cout << sizeof(a) << " " << sizeof(b) << endl;
+}
+
+Output: 4 4
+
+Note: if no datatype is given to a variable then the compiler will automatically converts it to int data-type
+
+int main(){
+	signed float a;
+	short flaot b;
+	return 0;
+}
+
+Output: Error 
+
+Note: We can't use any modifiers modifiers in float data type. If coder tries to use it, the compiler automically gives compile time error.
+Similarly, only long modifiers are allowed for double data type.
+
+int main(){
+	long double b;
+	std::cout << "Long Double is Possible" ;
+	return 0;
+}
+
+Output: Long Double is Possible
+
+Note: We can use Long Double as modifier.
+
+
+Summary:
+Modifiers are used to modify the size and range of values to be stored.
+Modifiers can only be applied to int, char, and double data-types.
+The modifiers supported in C++ are short, long, signed, unsigned.
+The only modifier allowed for double is long.
+
+---------------------------------------------------------------------------
+
+TYPEDEF:
+
+C++ allows you to define names explicitly to existing datatypes by using the keyword typedef.
+
+"typedef" doesn't create a new name, but defines a new name for an existing type.
+
+Typedef faciliates the following:
+1.) Portability of programs
+2.) Simple name for a complicated type cast
+3.) Names the unnamed types
+
+// num1 = 10, num2 = 20
+int main(){
+	typedef int integer;
+	integer num1;
+	typedef integer integer_type;
+	integer_type num2;
+	typedef integer_type integer_data_type;
+	integer_data_type sum;
+	std::cin>>num1;
+	std::cin>>num2;
+	std::cout<< num1 << "  " << num2;
+}
+
+Output: 10 20
+
+---------------------------------------------------------------------------
+
+
+ENUMERATION:
+
+enum num_variables{state = 0, state = 1,............};
+
+enum season{spring, autumn, summer, winter};
+
+enum season{spring = 0, autumn = 1, summer = 2, winter = 3};  [default values]
+
+enum season climate;
+
+enum season {spring = 0, autumn = 1, summer = 2, winter = 3}climate;
+
+
+int main(){
+	season = climate;
+	climate = summer;
+	cout << summer;
+}
+
+OUTPUT: 1
+
+Note :If the value is assigned to anyone but not to the next one then it will be +1 to next variable.
+
+Summary: 
+Enumeration is an user-defined data-type
+The keyword to be used for enumeration is enum.
+The default value of integer constants in enumeration starts with 0.
+The default value of integer constantc in enumeration can be changed.
+---------------------------------------------------------------------------
+VARIABLES :
+
+int main(){
+int n;
+cout << n;
+}
+
+In local variable, if the value is not initialized a garbage value is stored. In global variable, if the value is not initialized, zero is stored by default.
+
+In this case the computer will assign some unused memory to n. It will then send the value residing in that memory location to cout which will print the value(intrepreted as an integer).
+
+But what will it print? The answer is “who knows!”, and the answer may (or may not) change every time you run the program. So, the answer is Garbage value.
+
+Have you wondered why compilers produce 0 as output?
+
+Since compiler assigned 0 to uninitialized variable by default.
+
+In all web-based compilers, 0 is assigned to an uninitialized local variable by default. But, in the offline compiler(Dev C++, Turbo C), garbage value is assigned to an uninitialized local variable 
+
+If you don't initialize variables then the C++ compiler will usually allocate Garbage value for int data type.
+
+In C++, variable is used to store data in a memory location, which can be modified or used in the program during program execution.
+
+Summary: 
+
+Before using a variable we have to declare it.
+Variables can also be initialized at the time of declaration or using a stand alone statement.
+
+---------------------------------------------------------------------------
+LVALUE AND RVALUE: 
+
+Lvalue and Rvalue are important concepts in the domains of data types and memory allocations.
+
+Summary:
+lvalue refers to a specific memory location
+A rvalue does not refer anywhere. It is a temporary value considered for the current statement.
+lvalue to rvalue conversion happens implicitly
+rvalue to lvalue conversion is not possible.
+
+---------------------------------------------------------------------------

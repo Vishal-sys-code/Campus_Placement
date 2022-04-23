@@ -1,0 +1,28 @@
+THERE ARE TWO PROGRAMMING QUESTIONS
+----------------------------------------------------------------------------------------
+
+1.) take decimal n and output that
+
+Solution: 
+	#include <bits/stdc++.h>
+	using namespace std;
+
+	int main(){
+		ios_base::sync_with_stdio(false); cin.tie(0); cout.tie(0);
+		double n; cin>>n; cout << n << endl;
+		return 0;
+	}
+-----------------------------------------------------------------------------------------
+
+2.) Take an string s and output it.
+
+Solution:
+
+	#include <bits/stdc++.h>
+	using namespace std;
+
+	int main(){
+		ios_base::sync_with_stdio(false); cin.tie(0); cout.tie(0);
+		string s; cin>>s; cout << s << endl;
+		return 0;
+	}

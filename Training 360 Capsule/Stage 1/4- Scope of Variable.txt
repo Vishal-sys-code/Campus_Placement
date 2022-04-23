@@ -1,0 +1,121 @@
+Storage classes is an important concept in the domains of data types and scope of variables.
+
+The scope mentioned here is the view or focus. 
+
+That is the function of storage classes. 
+
+All variables will be in an auto storage class until we define a storage class with a different scope.
+
+Storage classes provide information like visibility/scope of the variable in a program, memory location of a variable in memory, default value and it's lifetime.
+
+When we don't provide a storage class, compiler will consider default storage class.
+
+1.) 'auto'
+
+-> Default storage class.
+-> Lifetime: inside the block
+-> Default value: garbage value
+-> Example: int var; auto int var;
+
+2.) 'register'
+-> Stored in registers.
+-> Lifetime: inside the block
+-> Default value: garbage value
+-> Example: register int var;
+
+3.) 'static'
+-> Scope: local to the function
+-> Lifetime:through out the program
+-> Default Value: 0
+-> Example: static int var;
+
+4.) 'extern'
+-> Global Scope
+-> Lifetime:through out the program 
+-> Default Value: 0
+-> Example: extern int var;
+
+5.) 'mutable'
+-> Only applicable to class data members
+-> used to restrict the modification
+
+int main(){
+int a = 100;
+}
+// a is auto
+As a storage class is not provided, the compiler assumes the default storage class  auto. Hence, the answer is auto.
+
+int main() {
+    // Write C++ code here
+    extern int a =1 ;
+    cout << a;
+    return 0;
+}
+
+Line 2 defines an extern variable 'a' which is initialized as 1. This line will result in error. 
+
+First of all, while using external variable the file from where to referred should be included which is missing in the code.
+
+Secondly, the extern variable definition is provided whereas declaration is missing.
+
+At the third point, while defining extern variable in a function or a block, it should not be initialized. It's because of linkage issues.
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+SCOPING:
+
+While using variables, we should be aware about scope of the variables.
+
+Scope is a region of a program. Variable Scope is a region in a program where a variable is declared and used.
+
+Variables are thus of two types depending on the region where these are declared and used i,e, local variable and global variable.
+
+Variables that are declared inside a function or block are called local variables
+
+We can use these local variables anywhere after their declaration in a function or block.
+
+Variables defined outside all the functions and blocks are called global variables. It can be used anywhere in the program after it has defined.
+
+
+1. #include<iostream>
+2. int g = 3899;
+3. int main()
+4. {
+5.	 int g = 33;
+6.	 std::cout<<g;
+7.	 return 0;
+8. }
+
+
+As given, line 2 declares an integer variable g with value 3899. This variable is a global variable, whereas the variable g declared in line 5 is a local variable. 
+
+
+
+So, while printing variable g which will be accessed will be the local variable. Because, local variable has more priority over a global variable.
+
+
+The solution to this problem is an operator, called scope resolution operator. A scope resolution operator is nothing but a pair of colons i.e, ::.
+
+1. #include<iostream>
+2. int g = 3899;
+3. int main()
+4. {
+5. 	 int g = 33;
+6.	 std::cout<<"Value of global g = "<<::g;
+7.	 std::cout<<"\nValue of local g = "<<g;
+8.	 return 0;
+9. }
+
+
+In this case, line 6 refers global variable 'g' using ::g and the local variable as simply g.
+
+
+Summary: 
+
+Variables defined outside all the functions and blocks are called global variables.
+It can be used anywhere in the program after it has defined.
+Local Variables has more priority than global variables
+To access a global variables when a local variables with same name is present, scope resolution (::) is used.
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+

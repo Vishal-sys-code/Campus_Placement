@@ -1,0 +1,97 @@
+
+
+-----------------------------------------------------------------
+# -> Preprocessor directive
+<iostream> -> header iostream => input/output stream
+<< : insertion operator
+
+Summary: 
+1. Comments
+2. Inclusion of header files
+3. Functions
+4. Statements
+
+-----------------------------------------------------------------
+BUILDING BLOCKS:
+
+Summary: 
+all the statements should end with a semicolon
+where all the lines in a cpp may not end with semicolon
+to start the block use = { and to end the block use = }
+
+-----------------------------------------------------------------
+IDENTIFIER:
+
+Can use : Count, wow, number mid_name
+Can't use: 123, Last.name, work address, sum/total
+
+123 is invalid because it starts with a digit
+Last.name, sum/total are not valid as they contain a special character
+work address is invalid as it contains white space
+
+identifiers are case sensitive
+
+Summary: 
+Identifiers are used to name functions, variables, etc
+
+There are certain rules to be followed while naming an identifier: 
+1.) Alphabets, digits and underscore can be used
+2.) Should not start with a digit
+3.) WHitespace are not allowed
+4.) Keywords cannot be used as identifiers
+5.) Maximum length considered is 31 characters
+6.) C++ is case sensitive
+
+-----------------------------------------------------------------
+KEYWORDS:
+
+Keywords are those words whose meaning is already reserved or defined by the compiler
+
+Keywords are the collection of reserved words and predefined identifiers.
+Predefined identifiers are the identifiers defined by the compiler, but the user can change the meaning.
+
+95 keywords are there in cpp
+
+main() is a predefined identifier
+
+-----------------------------------------------------------------
+
+TRIGRAPHS:
+
+trigraph is a three character sequence that represent a single character
+
+??= 	-> #
+??/	-> \
+??'	-> ^
+??(	-> [
+??)	-> ]
+??!	-> |
+??<	-> {
+??>	-> }
+??-	-> ~
+
+In older compilers trigraph were used nowadays it is disabled.
+The sequence of trigraph is introduced by the "??"
+
+-----------------------------------------------------------------
+
+WHITESPACES:
+
+Spaces, Tabs, Newlinws,
+CPP ignores the white spaces
+CPP is a white space independent language
+
+-----------------------------------------------------------------
+
+COMMENTS: 
+
+Single line comment: //
+Multi line comment: /* */
+
+Comments are not statements in CPP
+
+Comments are used for documentation purpose
+
+To extent single line comment to next line '\' has to be used
+
+-----------------------------------------------------------------

@@ -1,0 +1,47 @@
+Integer literal prefixes representation:
+
+Decimal integer literal (base 10): 1,2,3,4,5,6,7,8,9
+	Example : 63, 57, 890
+
+Octal integer literal(base 8): 0,1,2,3,4,5,6,7
+	Example: 077,012,045
+
+Hexadecimal integer literal(base 16): 0 to 9, A, B, C, D, E
+	Example: 0x3F, 0x4A,0x5C
+
+While not using any suffix, makes the compiler to compile it as a normal integer. But, if added u or U as a suffix, modifies the integer data-type into unsigned int.
+
+Similarly, the suffix l or L indicated the literal and long integer literal. To denote unsigned long int, the suffix to be used is ul or UL. Adding a l or L will make it unsigned long long int.
+
+Summary: 
+
+An integer literal is used to store an integer value
+It could be a decimal value, octal, or a hexadecimal constant.
+It could be represented in two ways i.e., using prefixes and suffixes.
+They are decimal constants, octal constants which starts with 0, hexadecimal constant which starts with 0X or 0x and binary literals that starts with 0B or 0b
+Suffixes like U or u, L and UL can also be used.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Decimal / Floating
+
+Floating points literals are used to representand store real numbers.
+It has an integer apart, a decimal point, fractional part, an exponential part and an optional suffix
+Integer part or the fractional part can be ommited but not both
+Decimal point or the exponent part can be omitted, but not both
+F or f suffix is used to indicate flaot
+L or l suffix is used to indicate long double
+If suffix not used, consider as double.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Character literals are enclosed in single quotes
+A character can be stored using char type or using w_char type
+To store a wide character literal, the character should be followed by L.
+Escape sequences start with backslash(\)
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#define is a preprocessor directive
+Preprocessor replaces the identifier defined with the replacement
+Replacement happens before compilation
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
