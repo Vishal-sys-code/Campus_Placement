@@ -168,3 +168,44 @@ Input (stdin)
 Output (stdout)
 2016 is a leap year
 ```
+
+<hr>
+
+## 6. Car mileage
+Rajesh Koothrapalli bought a new car and for the first time, he wants to go to a temple. Without checking how much petrol is available in the car, he started traveling. After reaching a certain distance, his friend Howard reminded him that he didn't check the petrol level of his car. Then Rajesh checks the petrol level and calculates how much distance he must travel to reach the destination. Find whether he can reach the destination with the available petrol. Mileage is also known. Display “Can reach” or “Cannot reach” based on the situation.
+
+INPUT & OUTPUT FORMAT:
+
+Input consists of 1 float and 2 integers values.
+
+First input corresponds to the mileage which is of float datatype.
+
+Second input corresponds to litres of petrol available.
+
+Third input corresponds to the distance to be travelled.
+
+The output consists of one string.
+
+SAMPLE INPUT:
+
+11.0
+
+6
+
+67
+
+SAMPLE OUTPUT:
+
+Cannot reach
+
+
+```
+Input (stdin)
+11.0
+6
+67
+```
+```
+Output (stdout)
+Cannot reach
+```
