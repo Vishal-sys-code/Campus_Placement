@@ -17,6 +17,30 @@ void set_IO(){
 
 int main(){
     set_IO();
-    
+    int m; cin>>m;
+    if(m == 100){
+        cout << "S" << endl;
+    }
+    else if(m>=90 && m<=99){
+        cout << "A" << endl;
+    }
+    else if(m>=80 && m<=89){
+        cout << "B" << endl;
+    }
+    else if(m>=70 && m<=79){
+        cout << "C" << endl;
+    }
+    else if(m>=60 && m<=69){
+        cout << "D" << endl;
+    }
+    else if(m>=50 && m<=59){
+        cout << "E" << endl;
+    }
+    else if(m<50){
+        cout << "F" << endl;
+    }
+    else{
+        cout << "Invalid Input" << endl;
+    }
     return 0;
 }
