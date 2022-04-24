@@ -392,3 +392,34 @@ C
 
 
 <hr>
+
+## 13. Lab Allocation-I
+There are 3 labs in the Chemical department( L1, L2, and L3 ) with a seating capacity of x, y, and z respectively. Write a C++ program to find the lab which has minimal seating capacity.
+
+INPUT FORMAT:
+
+Input consists of 3 integers.
+
+The first input denotes the seating capacity of L1(x).
+
+The second input denotes the seating capacity of L2(y).
+
+The third input denotes the seating capacity of L3(z).
+
+OUTPUT FORMAT:
+
+Print the lab name with minimal seating capacity.
+
+Refer the sample output for formatting.
+
+SAMPLE INPUT:
+
+30
+
+40
+
+20
+
+SAMPLE OUTPUT:
+
+L3
