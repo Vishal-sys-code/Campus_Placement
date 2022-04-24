@@ -17,6 +17,15 @@ void set_IO(){
 
 int main(){
     set_IO();
-    
+    int a,b,c; cin>>a>>b>>c;
+    if(a<=b && a<=c){
+        cout << "L1" << endl;
+    }
+    else if(b<=a && b<=c){
+        cout << "L2" << endl;
+    }
+    else{
+        cout << "L3" << endl;
+    }
     return 0;
 }
