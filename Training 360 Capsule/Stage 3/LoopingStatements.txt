@@ -1,0 +1,17 @@
+In programming, we need to execute set of code repeatedly until the stated condition becomes false. This is called looping statement or iteration.
+
+
+Factorial of a number : [C++] 
+
+#include <bits/stdc++.h
+using namespace std;
+
+int fact(n){
+
+}
+
+int main(){
+    int n; cin>>n;
+    cout << fact(n) << endl;
+    return 0;
+}
