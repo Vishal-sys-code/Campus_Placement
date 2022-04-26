@@ -3,15 +3,16 @@ In programming, we need to execute set of code repeatedly until the stated condi
 
 Factorial of a number : [C++] 
 
-#include <bits/stdc++.h
+#include <bits/stdc++.h>
 using namespace std;
+#define ll long long
 
-int fact(n){
-
+ll fact(ll n){
+    return (n == 1 || n == 0) ? 1 : n * fact(n - 1);
 }
 
 int main(){
-    int n; cin>>n;
+    ll n; cin>>n;
     cout << fact(n) << endl;
     return 0;
 }
