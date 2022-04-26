@@ -47,8 +47,6 @@ Count of digits: [C++]
 using namespace std;
 #define ll long long
 
-
-
 int main(){
     ll n; cin>>n;
     ll cnt = 0;
@@ -61,3 +59,11 @@ int main(){
     }
     cout<< cnt << endl;
 }
+
+Do while Loop:
+
+1.) do while loop is exti controlled loop
+2.) If iteration is fixed FOR LOOP is recommended
+3.) If iteration is not fixed, WHILE LOOP is recommended
+4.) Execute the statements atleast once, do while loop is recommended
+
