@@ -55,3 +55,20 @@ SAMPLE OUTPUT:
 21
 
 <hr>
+
+## Harshad Number
+
+Write a C++ program to find whether the given number is a Harshad number or not. Note that Harshard number is an integer that is divisible by the sum of its digits.
+INPUT & OUTPUT FORMAT:
+
+Input consists of 1 integer. If the given number is a Harshad Number, display "Harshad Number" or display "Not Harshad Number".
+
+SAMPLE INPUT:
+
+1729
+
+SAMPLE OUTPUT:
+
+Harshad Number
+
+<hr>
