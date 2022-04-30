@@ -179,3 +179,23 @@ Summary of Break Statement
 2.) Type of Jump Statements are: break, continue, and goto
 3.) break statement is used in looping and switch case
 4.) break is used to terminate the existing block or loop
+
+---------------------------------------------------------------------------------------------------------------
+
+Q.) #include<iostream>
+int main()
+{
+    int i = 0;
+    do 
+    { 
+        if (i++ < 1) 
+        { 
+            std::cout<<i; 
+            continue; 
+        } 
+    }while(i <= 1);
+    return 0; 
+}
+
+Output: 1
+
