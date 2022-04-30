@@ -172,3 +172,10 @@ Sample Output:
 Eligible
 
 ---------------------------------------------------------------------------------------------------------------
+
+Summary of Break Statement
+
+1.) Jump Statements are used to alter the flow of control unconditionally.
+2.) Type of Jump Statements are: break, continue, and goto
+3.) break statement is used in looping and switch case
+4.) break is used to terminate the existing block or loop
