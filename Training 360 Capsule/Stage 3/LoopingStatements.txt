@@ -312,3 +312,14 @@ int main(){
 }
 
 Output: Infinite Loop
+
+
+Q.) #include<iostream>
+int main()
+{
+  while('A')
+    std::cout<<"hello";
+}
+
+Output: Infinite Loop
+
