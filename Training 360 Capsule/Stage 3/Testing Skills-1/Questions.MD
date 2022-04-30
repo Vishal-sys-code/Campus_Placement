@@ -157,3 +157,5 @@ SAMPLE INPUT & OUTPUT 2:
 7
 
 2.0
+
+<hr>
