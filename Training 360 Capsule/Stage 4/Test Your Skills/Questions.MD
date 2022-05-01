@@ -139,3 +139,55 @@ Enter the value of n
 The value of 6 power 5 is 7776
 ```
 <hr>
+
+Digit root of a given number
+Write a program to find the repeated sum of digits of a number until it becomes a single-digit number.
+Input Format:
+
+The input contains an integer which denotes 'n'
+
+Output Format:
+
+Print the single digit number
+
+Sample Input
+
+88
+
+Sample Output
+
+7
+
+Explanation:
+
+Step 1: 8+8 = 16
+
+Step 2: 1+6 = 7
+
+sum of digits of a number until it becomes a single-digit number which is 7 here.
+
+```
+Case 1
+Input (stdin)
+99
+
+Output (stdout)
+9
+```
+```
+Case 2
+Input (stdin)
+887
+
+Output (stdout)
+5
+```
+```
+Case 3
+Input (stdin)
+772
+
+Output (stdout)
+7
+```
+<hr>
