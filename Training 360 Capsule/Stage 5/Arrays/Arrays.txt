@@ -10,3 +10,13 @@ int main(){
 
 Output: Garbage Value
 
+Q.) 
+#include <iostream>
+int main(){
+  int score[4] = {1, 2};
+  std::cout<<score[3];
+  return 0;
+}
+
+Output: 0
+
