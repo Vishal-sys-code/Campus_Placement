@@ -1,2 +1,12 @@
 Array is a group of similar types of elements that have contiguous memory location.
 
+Q.) 
+#include<iostream>
+int main(){
+  int score[4];
+  std::cout<<score[2];
+  return 0;
+}
+
+Output: Garbage Value
+
