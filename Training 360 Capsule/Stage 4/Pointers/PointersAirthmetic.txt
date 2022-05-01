@@ -1,0 +1,77 @@
+1.) 
+#include<iostream>
+int main()
+{
+  int a = 10,*p;
+  int *vp;
+  p = &a;
+  vp = p;
+  std::cout<<*p;
+  std::cout<<*vp;
+}
+
+Output: 1010
+
+2.) 
+Kindly predict the output of the below code. Assume the address of a is 5000.
+
+#include<iostream>
+int main()
+{
+  int a = 5, *p;
+  p = &a;
+  p = p * 1;
+  p = p / 1;
+  std::cout<<p;
+}
+
+Output: Error
+
+3.) 
+Assume the address of i is 5000.
+
+#include<iostream>  
+int main ()  
+{  
+  int i = 100;  
+  int *p = &i;  
+  int *temp;  
+  temp = p;  
+  p = p + 2;  
+  std::cout<<temp - p;
+}
+Hint: Size of integer is 4.
+
+Output: -2
+
+4.) 
+#include <iostream>
+int main ()
+{
+  int x = 5, y = 6, *xptr, *yptr;
+  xptr = &x;
+  yptr = &y;
+  if(xptr > yptr)
+  {
+    std::cout<<"xptr is far from yptr";
+  }
+  else
+  {
+    std::cout<<"yptr is far from xptr";
+  }
+}
+
+Output: yptr is far from xptr
+
+5.) 
+#include<iostream>
+int main()
+{
+   int a = 5, *p;
+   p = &a;
+   ++*p;
+   std::cout<<*p;
+}
+
+Output: 6
+
