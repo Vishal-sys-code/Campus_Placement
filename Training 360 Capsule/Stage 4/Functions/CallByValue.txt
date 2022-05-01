@@ -1,0 +1,8 @@
+1.) If a function take any arguments, it must declare variables that accept the values as arguments. These variables are called ________________.
+
+Answer: Formal Parameters
+
+2.) Which statement is correct about pass by value?
+
+Answer: Cannot change the Actual value of Parameters
+
