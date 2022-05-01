@@ -1,0 +1,18 @@
+Functions are group of statements which are put in a block to perform a particular task.
+ 
+For example, while writing a program you need to read some data again and again. 
+
+Either the programmer can write those lines of code again and again or those lines can be kept in a function and the function can be used anywhere required. 
+
+Thus, usage of functions make code simple, readable and reusable.
+
+-------------------------------------------------------
+Function Declaration: 
+
+return_type Function_name(arguments_lists)
+
+-------------------------------------------------------
+Function Call: 
+
+Function_name(arguments list)
+
