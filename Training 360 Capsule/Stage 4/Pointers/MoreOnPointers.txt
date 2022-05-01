@@ -116,3 +116,18 @@ int main()
 }
 
 Output: error
+
+---------------------------------------------------------------------------------------
+
+Dangling pointers in computer programming are pointers that pointing to a memory location that has been deleted (or freed).
+
+Explanation:
+
+Dangling pointers arise during object destruction, when an object that has an incoming reference is deleted or deallocated, without modifying the value of the pointer, so that the pointer still points to the memory location of the deallocated memory.
+
+The system may reallocate the previously freed memory, unpredictable behavior may result as the memory may now contain completely different data.
+
+The pointer pointing to local variable doesn't become dangling when local variable is static. 
+
+
+---------------------------------------------------------------------------------------
