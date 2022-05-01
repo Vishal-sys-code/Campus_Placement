@@ -36,4 +36,12 @@ int main()
 
 Output: 20
 
-3.) 
+3.) #include <iostream>
+int main()
+{
+  int a = 3;
+  int **p = &a;
+  std::cout<<**p;
+}
+
+Output: Error
