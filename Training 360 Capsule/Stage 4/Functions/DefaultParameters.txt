@@ -1,0 +1,56 @@
+When we initialize the formal parameters with values we call it as default / optional parameters. 
+
+1.) 
+#include <iostream>
+	void Argument(int x, int y = 5)
+	{
+	   std::cout<< x <<"";
+	   std::cout<< y <<"";
+	}
+	int main()
+	{
+	   Argument(8);
+	   Argument(4, 6);
+	   return 0;
+	}
+
+Output: 8 5 4 6
+
+2.) #include <iostream>
+int Function(int x = 5, int y )
+{
+   int z;
+   z = x + y;
+   return z;
+}
+int main()
+{
+   std::cout<< Function(5);
+}
+
+Output: Error
+
+3.) #include <iostream>
+int Function(int x =5, int y =0)
+{
+   int z;
+   z = x + y;
+   return z;
+}
+int main()
+{
+   std::cout<< Function(,5);
+   return 0;
+}
+
+Output: Error
+
+
+Summary: 
+
+1.) A default argument s a default value provided for a function parameters
+2.) If the user does not supply an explicit argument for a parameter with a default argument the default value will be used.
+3.) If the user does suplly an argument for the parameter the user supplied arguments is used.
+4.) Also known as optional parameter
+5.) All the defaults arguments must be for the rightmost parameters.
+6.) If more than one defaults arguments exists the leftmost default argument should be explicitly set by the user.
