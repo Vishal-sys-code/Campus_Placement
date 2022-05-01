@@ -1,0 +1,39 @@
+1.) 
+#include <iostream> 
+int main() 
+{ 
+    int a = 32; 
+	int *ptr = &a; 
+    char ch = 'A'; 
+    char &p = ch; 
+    p += a; 
+    *ptr += ch; 
+    std::cout<<a<<" "<<ch; 
+    return 0; 
+}
+
+Output: 129 a 
+
+2.) #include<iostream>
+int fun(int x, int *p, int **ptr)
+{
+   int y, z;
+   **ptr += 2; 
+   z = **ptr;
+   *p += 1;
+   y = *p;
+   x += 3;
+   return x + y + z;
+}
+int main()
+{
+   int c, *b, **a;
+   c = 4;
+   b = &c;
+   a = &b; 
+   std::cout<<fun(c,b,a);
+}
+
+Output: 20
+
+3.) 
