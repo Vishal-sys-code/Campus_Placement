@@ -59,4 +59,9 @@ Output: 10
 
 -------------------------------------------------------
 
-Q.) 
+Summary: 
+1.) Advantages: code reusability, code optimization
+2.) It has 3 parts: function declaration, function definition, function call 
+3.) Can skip function declaration if function is defined before main function
+4.) Each variable used in function has local scope
+5.) The variable used in function call is actual parameter and the one that is used in function definition is formal parameters
