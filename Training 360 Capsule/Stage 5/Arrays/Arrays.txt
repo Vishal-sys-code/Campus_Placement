@@ -29,3 +29,14 @@ int main()
     return 0; 
 } 
 Output: Garbage Value
+
+Q.) 
+#include<iostream>
+int main() 
+{ 
+  int arr[2] = {10, 20, 30, 40, 50}; 
+  std::cout<<arr[0];
+  return 0; 
+}
+
+Output: Error
