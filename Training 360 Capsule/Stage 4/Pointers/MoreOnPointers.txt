@@ -1,0 +1,13 @@
+1.) 
+#include<iostream>
+int main()
+{
+   int a = 10, *p;
+   p = &a;
+   *p++;
+   std::cout<<*p;
+}
+
+Output: Garbage Value
+
+2.) 
