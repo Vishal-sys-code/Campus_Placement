@@ -10,4 +10,54 @@ int main()
 
 Output: Garbage Value
 
+-----------------------------------------------------
+NULL pointer:
+
+
+
+Like variables, when pointers are not initialized, a pointer will point to some garbage address by default.
+
+
+
+In some cases, we don’t have address to be assigned to a pointer. In such case, we can simply use NULL to avoid some random address. 
+
+A NULL value is a constant with a value of zero. A pointer that is assigned NULL is called a NULL pointer.
+
+Example program:
+
+#include<iostream>
+int main()
+{
+  int *ptr = NULL;
+  std::cout<<ptr;
+}
+
+Output: 0
+-----------------------------------------------------
+
+
+Wild Pointer:
+
+
+
+A pointer which is not initialized till it's first use is known as the wild pointer.
+
+
+
+A wild pointer points to some random memory location.
+
+
+Can we avoid Wild Pointers??
+Answer: To avoid wild pointer, we can initialize a pointer at the point of declaration either by the address of some variable or by NULL.
+-----------------------------------------------------
+
 2.) 
+#include<iostream>
+int main()
+{
+   char *p;
+   int i = 97;
+   p = &i;
+   std::cout<<*p;
+}
+Output: Error
