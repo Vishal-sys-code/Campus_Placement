@@ -191,3 +191,51 @@ Output (stdout)
 7
 ```
 <hr>
+
+## GCD of 2 Numbers
+Write a program to compute GCD of 2 numbers using recursion.
+INPUT & OUTPUT FORMAT:
+
+Input consists of 2 integers.
+
+Refer sample input and output for formatting specifications.
+
+SAMPLE INPUT & OUTPUT:
+
+36
+
+27
+
+G.C.D of 36 and 27 = 9
+
+```
+Case 1:
+Input (stdin)
+36
+27
+
+Output (stdout)
+G.C.D of 36 and 27 = 9
+```
+
+```
+Case 2:
+Input (stdin)
+43
+34
+
+Output (stdout)
+G.C.D of 43 and 34 = 1
+```
+
+```
+Case 3: 
+Input (stdin)
+222
+443
+
+Output (stdout)
+G.C.D of 222 and 443 = 1
+```
+
+<hr>
