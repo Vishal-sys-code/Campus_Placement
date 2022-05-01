@@ -61,3 +61,58 @@ int main()
    std::cout<<*p;
 }
 Output: Error
+
+The program pass the compiler error. Because you cannot assign the address of variable of one type to a pointer of another type. 
+
+#include<iostream>
+int main()
+{
+   char *p; // Character pointer
+   int i = 97; // integer value
+   p = &i;
+   std::cout<<*p;
+}
+
+
+How can we avoid that error?
+
+
+We can avoid that error by using void pointer (void *)
+
+
+
+Void pointer:
+
+A void pointer does not have any data type and it can be assigned a value of any type. Also known as generic pointer.
+
+
+
+Void pointer is capable of storing address of any data type.
+
+
+Example program:
+
+#include<iostream>
+int main()
+{
+    void *ptr;
+    int i = 10;
+    char c = 'a';
+    ptr = &i; // Address of integer is assigned
+    ptr = &c; // Address of character is assigned
+}
+
+
+-------------------------------------------------------------------------------------
+
+3.) 
+#include<iostream>
+int main()
+{
+  void *p;
+  int i =10;
+  p = &i;
+  std::cout<<*p;
+}
+
+Output: error
