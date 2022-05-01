@@ -37,4 +37,36 @@ int main()
 
 Output: 3 20
 
+------------------------------------------------------------
+
+Coding Questions
+
+Swapping Using Call By Reference
+
+Read two integers as input and swap them using call by reference, without using a third variable.
+
+
+Case 1
+Input (stdin)
+6 5
+
+Output (stdout)
+Before swapping a= 6 and b=5
+After swapping a= 5 and b=6
+
+Case 2
+Input (stdin)
+7 8
+
+Output (stdout)
+Before swapping a= 7 and b=8
+After swapping a= 8 and b=7
+
+Case 3:
+Input (stdin)
+10 5
+
+Output (stdout)
+Before swapping a= 10 and b=5
+After swapping a= 5 and b=10
 
