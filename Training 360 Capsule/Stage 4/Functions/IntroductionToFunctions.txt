@@ -16,3 +16,11 @@ Function Call:
 
 Function_name(arguments list)
 
+-------------------------------------------------------
+
+Function Definition: 
+
+return_type Function_name(arguments_lists)
+{
+    //Statements are to be executed
+}
