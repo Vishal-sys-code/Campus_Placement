@@ -40,7 +40,7 @@ The factorial of 11 is 39916800
 
 <hr>
 
-Fibonacci Series
+## Fibonacci Series
 Write a program to find the nth term in the Fibonacci series using recursion. Note that the first 2 terms in the Fibonacci Series are 0 and 1.
 INPUT & OUTPUT FORMAT:
 
@@ -85,6 +85,57 @@ The term 15 in the fibonacci series is 377
 
 <hr>
 
+## Compute a^n
+Write a program to compute a^n (a power n) using recursion.
+INPUT & OUTPUT FORMAT:
 
+Input consists of 2 integers
 
+Refer sample input and output for formatting specifications
+
+SAMPLE INPUT & OUTPUT:
+
+Enter the value of a
+
+2
+
+Enter the value of n
+
+8
+
+The value of 2 power 8 is 256
+
+```
+Case 1:
+Input (stdin)
+3
+1
+
+Output (stdout)
+Enter the value of a
+Enter the value of n
+The value of 3 power 1 is 3
+```
+```
+Case 2: 
+Input (stdin)
+4
+3
+
+Output (stdout)
+Enter the value of a
+Enter the value of n
+The value of 4 power 3 is 64
+```
+```
+Case 3: 
+Input (stdin)
+6
+5
+
+Output (stdout)
+Enter the value of a
+Enter the value of n
+The value of 6 power 5 is 7776
+```
 <hr>
