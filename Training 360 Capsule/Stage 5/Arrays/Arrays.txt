@@ -40,3 +40,17 @@ int main()
 }
 
 Output: Error
+
+Q.) 
+#include <iostream>
+int main(){
+  int arr[3];
+  arr[0] = 5;
+  arr[1] = 4;
+  arr[2] = 8;
+  for(int i = 0; i < 3; i++){
+    std::cout<<arr[i]<<" ";
+  }
+}
+
+Output: 5 4 8
