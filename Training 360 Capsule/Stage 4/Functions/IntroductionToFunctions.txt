@@ -24,3 +24,18 @@ return_type Function_name(arguments_lists)
 {
     //Statements are to be executed
 }
+
+-------------------------------------------------------
+
+int main(){
+    int n = function(a,b,c);
+}
+
+int function(int a,int b, int c){
+
+}
+
+Here in the function the parameters: int a,int b, int c are called as Formal parameters
+Here in the main function the function(a,b,c) paramenters are called Actual parameters
+
+-------------------------------------------------------
