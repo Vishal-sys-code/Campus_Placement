@@ -1,0 +1,55 @@
+1.) #include <iostream>
+int main()
+{
+    int *ptr;
+    int x=9;
+    ptr = &x;
+    *ptr = 0;
+    std::cout<<" x = "<<x<<"\n";
+    std::cout<<" *ptr = "<<*ptr<<"\n";
+}
+
+Output: 
+x = 0
+*ptr = 0
+
+2.) 
+	#include <iostream>
+	int global = 37; 
+	void Value(int* x) 
+	{ 
+	   x = &global; 
+	} 
+	int main() 
+	{ 
+	   int var = 22; 
+	   int *Pointer = &var; 
+	   Value(Pointer); 
+	   std::cout<< *Pointer << "\n"; 
+	   return 0; 
+	} 
+
+Output: 22
+
+3.) #include <iostream> 
+int x; 
+void Q(int z) 
+{ 
+    z += x; 
+    std::cout<<z<<" ";
+} 
+void P(int *y) 
+{ 
+    int x = *y + 3; 
+    Q(x); 
+    *y = x - 1; 
+    std::cout<<x<<" ";
+} 
+int main() 
+{ 
+    x = 4; 
+    P(&x); 
+    std::cout<<x<<" "; 
+}
+
+output: 11 7 6
