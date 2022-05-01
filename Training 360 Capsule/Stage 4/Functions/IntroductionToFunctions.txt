@@ -39,3 +39,24 @@ Here in the function the parameters: int a,int b, int c are called as Formal par
 Here in the main function the function(a,b,c) paramenters are called Actual parameters
 
 -------------------------------------------------------
+
+Q.) 
+#include <iostream>
+void fun(float x, int y)
+{
+    x = 20;
+    y = 10;
+}
+int main()
+{
+    int x = 10;
+    fun(x, x);
+    std::cout << x;
+    return 0;
+}
+
+Output: 10
+
+-------------------------------------------------------
+
+Q.) 
