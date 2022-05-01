@@ -1,0 +1,158 @@
+1.) Which amongst the following is used to execute the block of instructions repeatedly?
+Answer: Looping statement
+
+Q.) 
+The given code is supposed to print the digits of the given number from left to right using recursion. Due to some errors, it fails to print the correct output. Fix the below code to print the desired output.
+
+Sample Input:
+
+				428
+
+
+
+Sample Output:
+
+				4
+
+				2
+
+				8
+
+Code: 
+#include<iostream>
+void func(int n)
+{
+    if(n < 10){
+        std::cout<<n<<"\n";
+    }
+    func(n / 10);
+    std::cout<< n % 10<<"\n";
+}
+int main()
+{
+    int n;
+    std::cin>>n;
+    func(n);
+    return 0;
+}
+
+-------------------------------------------------------------------------
+Create a program to to print the digits of the given number from left to right using recursion by arranging the following lines from 4 to 9.
+
+Sample Input:
+
+428
+
+Sample Output:
+
+4
+
+2
+
+8
+
+
+
+1. #include<iostream>
+
+2. void func(int n)
+
+3. {
+
+4. if(n <= 9){
+
+5. return;
+
+6. std::cout<<n<<"\n";
+
+7. }
+
+8. std::cout<< n % 10<<"\n";
+
+9. func(n/10)
+
+10. }
+11. int main()
+
+12. {
+
+13. int n;
+
+14. std::cin>>n;
+
+15. func(n);
+
+16. return 0;
+
+17. }
+
+
+
+The line which comes fourth 
+4
+
+The line which comes fifth 
+6
+
+The line which comes sixth 
+5
+
+The line which comes seventh 
+7
+
+The line which comes eighth 
+9
+
+The line which comes ninth 
+8
+
+-------------------------------------------------------------
+1.) 
+#include<iostream>
+void print(int n)
+{
+    if(n == 0){
+      return;
+    }
+    else{
+		std::cout<<n<<" ";
+		print(n - 1);
+		std::cout<<n<<" ";
+    }
+}
+int main()
+{
+	print(5);
+}
+
+Output: 
+5 4 3 2 1 1 2 3 4 5 
+
+
+---------------------------------------------------------------------------
+Here's the explanation.
+
+
+
+return statement - returns the flow of execution to the function where it is called.
+
+
+
+break -  To termination the loop.
+
+
+
+continue -  To terminate the current iteration and resumes the control to the next iteration of the loop.
+
+
+
+goto - To jump from anywhere to anywhere within a function.
+
+-------------------------------------------------------------------------------------------------------------------------
+Summary:
+
+Recursion: A function which calls a copy of itself again and again
+
+
+
+
