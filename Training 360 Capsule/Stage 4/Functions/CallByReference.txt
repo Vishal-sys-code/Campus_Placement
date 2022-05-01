@@ -1,0 +1,40 @@
+1.) 
+#include<iostream>
+int main()
+{
+  int a = 10;
+  int& r = a;
+  r = 25;
+  std::cout<< "a = " << a<<"\n";
+  std::cout<< "r = " << r<<"\n";
+  a = 20;
+  std::cout<< "a = " << a<<"\n";
+  std::cout<< "r = " << r;
+  return 0;
+}
+
+Output:
+a = 25
+r = 25
+a = 20
+r = 20
+
+2.) 
+#include <iostream>
+void fun(int a, int b, int &c)
+{
+    a = b + c;
+    b = a + c;
+    c = a + b;
+}
+int main()
+{
+    int x = 3, y = 4;
+    fun(x, y, y);
+    std::cout<< x << " " << y;
+    return 0;
+}
+
+Output: 3 20
+
+
