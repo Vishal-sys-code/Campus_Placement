@@ -172,4 +172,19 @@ int main()
 }
 Output: 66 GV
 
+#include<iostream>
+void display(int a, int b)
+{
+    std::cout<<a + 10<<"\n";
+    std::cout<<b + 20;
+}
+int main()
+{
+    int arr[] = {25, 81, 45, 12};
+    display(arr[1], arr[2]); 
+    return 0;
+}
 
+Output: 91
+        65
+  
