@@ -187,4 +187,25 @@ int main()
 
 Output: 91
         65
-  
+
+
+#include<iostream>
+void display(int *a, int n);
+int main()
+{
+   int arr[] = {25, 81, 45, 12};
+   int n = sizeof(arr)/sizeof(arr[0]);
+   display(arr, n); 
+   return 0;
+}
+void display(int *a, int n)
+{
+   for(int i = 1; i < n; i = i + 2)
+   {
+      std::cout<<a[i]<<" ";
+   }
+}
+
+Output: 81 12
+
+
