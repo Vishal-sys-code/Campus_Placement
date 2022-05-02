@@ -159,3 +159,17 @@ int main()
 
 Output: GV
 
+#include <iostream>
+int main()
+{
+    int *ptr[4];
+    int (*p)[5];
+    int a[5] = {99, 11, 55, 66, 76};
+    *ptr = a;
+    p = &a;
+    std::cout<<(*p)[3]<<"\n";
+    std::cout<<*ptr[3];
+}
+Output: 66 GV
+
+
