@@ -137,3 +137,25 @@ Output: 2 8 13
 
 ----------------------------------------------------------------------------
 
+#include <iostream>
+int main()
+{
+  int *ptr[10];
+  int a[10] = {99, 11, 22, 33, 44, 55, 66, 77, 88, 19};
+  *ptr = a;
+  std::cout<<*ptr[0];
+}
+
+Output: 99
+
+#include <iostream>
+int main()
+{
+ int *ptr[10];
+ int a[10] = {99, 11, 22, 33, 44, 55, 66, 77, 88, 19};
+ *ptr = a;
+ std::cout<<*ptr[5];
+}
+
+Output: GV
+
