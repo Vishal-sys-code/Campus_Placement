@@ -245,3 +245,28 @@ int main()
 } 
 
 Output: Error
+
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+Q.) 
+#include<iostream> 
+int* fun(int *x, int *y) 
+{ 
+  if(*x == *y)
+    return x;
+  else
+    return y;
+} 
+int main() 
+{
+  int n1 = 34, n2 = 78;
+  int *p = fun(&n1, &n2); 
+  std::cout<<*p;
+  return 0; 
+}
+
+Output: 78
+
+
+
