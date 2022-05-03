@@ -269,4 +269,16 @@ int main()
 Output: 78
 
 
+Q.) 
+#include<iostream>
+int *fun(){
+	int a[] = {5, 7, 8};
+	return a;
+}
+int main()
+{
+	int *p = fun();
+	std::cout<<p[0]<<" "<<p[1];
+}
 
+Output: 5 7
