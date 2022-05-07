@@ -381,3 +381,31 @@ SAMPLE INPUT & OUTPUT:
 The maximum element is 9
 
 <hr>
+
+Greatest sum
+Seenu have a fruit shop. He is arranged the some set of fruits are column and row wise. Seenu needs to find which row and column has maximum number of fruits. Help him to find out.
+INPUT & OUTPUT FORMAT:
+
+Input consists of 2 integers and 1 2D-array. Integers correspond to the size of rows and columns.
+
+SAMPLE INPUT & OUTPUT:
+
+3
+
+3
+
+1 6 8
+
+2 5 1
+
+3 8 2
+
+Sum of rows is 15 8 13
+
+Row 1 has maximum sum
+
+Sum of columns is 6 19 11
+
+Column 2 has maximum sum
+
+<hr>
