@@ -23,7 +23,7 @@ int main(){
     }
 
     for(int i = 0; i < m; i++){
-        for(j = 0; j < n; j++){
+        for(int j = 0; j < n; j++){
             if ((i + j) == (m - 1)){
                 diag += mat[i][j];
             }
