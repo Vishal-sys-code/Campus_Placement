@@ -382,7 +382,8 @@ The maximum element is 9
 
 <hr>
 
-Greatest sum
+## Greatest sum
+
 Seenu have a fruit shop. He is arranged the some set of fruits are column and row wise. Seenu needs to find which row and column has maximum number of fruits. Help him to find out.
 INPUT & OUTPUT FORMAT:
 
