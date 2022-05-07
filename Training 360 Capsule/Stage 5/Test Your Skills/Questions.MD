@@ -399,7 +399,6 @@ SAMPLE INPUT & OUTPUT:
 
 2 5 1
 
-
 3 8 2
 
 Sum of rows is 15 8 13
