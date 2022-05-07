@@ -347,7 +347,8 @@ Sample Output:
 
 <hr>
 
-Maximum element in the matrix
+## Maximum element in the matrix
+
 Raju is the maths teacher in high secondary school and provided mark sheet to students.In this class room, students are arranged in the form of rows and columns. Raju needs to find the highest mark in this class. Help him to find out.
 INPUT FORMAT:
 
