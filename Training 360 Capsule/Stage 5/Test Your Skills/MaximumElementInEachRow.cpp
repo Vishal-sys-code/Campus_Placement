@@ -9,6 +9,16 @@ int main(){
             cin>>arr[i][j];
         }
     }
-    
+    int max = arr[0][0];
+    for(int i=0;i<r;i++){
+        max = arr[i][0];
+        for(int j=0;j<c;j++){
+            if(max < arr[i][j]){
+                max = arr[i][j];
+            }
+        }
+          cout << max << endl;
+    }
+  
     return 0;
 }
