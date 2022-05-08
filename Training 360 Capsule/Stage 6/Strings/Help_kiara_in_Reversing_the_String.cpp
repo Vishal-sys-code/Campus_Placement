@@ -26,29 +26,18 @@ Output (stdout)
 #include <bits/stdc++.h>
 using namespace std;
 
-void reverseWords(string s){
-    int n = s.length();
-    vector<string> temp;
-    int vs = temp.size();
-    string str = "";
-    for(int i=0;i<n;i++){
-        if(s[i] == ' '){
-            temp.push_back(str);
-            str = "";
-        }
-        else{
-            str+=s[i];
-        }
-    }
-    temp.push_back(str);
-    for(int i = vs-1;i>0;i--){
-        cout << temp[i] << " ";
-    }
-    cout << temp[0];
-}
-
 int main(){
-    string s; cin>>s;
-    reverseWords(s);
+    char str[100], rev[100];      
+    int count = 0, end, i;
+    std::cin.getline(str,100);
+    for(i=0;str[i]!='\0';i++){
+        count++;
+    }
+    end = count;
+    for(i=0;i<end;i++){
+        rev[i] = str[count-1];
+        count--;
+    }
+    cout << rev;
     return 0;
 }
