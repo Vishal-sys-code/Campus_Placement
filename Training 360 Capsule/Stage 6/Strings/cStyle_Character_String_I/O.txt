@@ -15,3 +15,22 @@ When a sequence of characters are enclosed in a double quotes, it is referred as
 
 
 We often use these string literals when we wish to display output. But, we can only display what is mentioned in the quotes. A string literal cannot be manipulated.
+
+
+Q.) 
+Please predict the output for the given code.
+
+
+
+#include <iostream>
+int main()
+{
+	char name[20];    //declaring string 'name'
+
+	std::cin>>name; //taking string input
+	std::cout << name <<std::endl; //printing string
+	return 0;
+}
+
+Output: None Of the Above
+
