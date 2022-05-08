@@ -1,0 +1,17 @@
+A string is an array of characters represented within the double quotes. 
+
+Q.) What is "Hello World" in the given code called?
+
+#include<iostream>
+int main()
+{
+	std::cout<<"Hello World";
+}
+
+Output: String Literal
+
+When a sequence of characters are enclosed in a double quotes, it is referred as string literal. 
+
+
+
+We often use these string literals when we wish to display output. But, we can only display what is mentioned in the quotes. A string literal cannot be manipulated.
