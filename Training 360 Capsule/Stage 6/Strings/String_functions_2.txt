@@ -15,3 +15,21 @@ int main() {
 
 Output: workinll g
 
+
+Q.) 
+#include <iostream>    
+#include <string>     
+int main ()
+{
+ std::string str1 ("There are two bobbins in this haystack with needles.");
+ std::string str2 ("bobbins");
+ std::size_t found = str1.find(str2);
+ if (found!=std::string::npos)
+  std::cout << "first 'bobbins' found at: " << found << '\n';
+ str1.replace(str1.find(str2),str2.length(),"thread");
+ std::cout << str1 << '\n';
+}
+
+Output: 
+first 'bobbins' found at: 14
+There are two thread in this haystack with needles.
