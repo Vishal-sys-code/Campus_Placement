@@ -1,5 +1,33 @@
 Class is an entity in C++, which is a named block which consists of variables and functions. 
 
-
-
 A class can be used by creating instances of it, which is called as objects.
+
+C++ has it's way to define a sequence of characters as an object of class, called std::string. 
+
+String class stores the characters as a sequence of bytes with a functionality of allowing access to single byte character.
+
+Q.) Please predict the output for the given code. Consider the input string as "Hai all".
+
+
+#include<iostream> 
+#include<string> 
+int main() 
+{ 
+  std::string str; 
+  std::getline(std::cin,str); 
+  std::cout << "The initial string is : "; 
+  std::cout << str << "\n"; 
+  str.push_back('s'); 
+  std::cout << str << "\n"; 
+  str.pop_back(); 
+  str.pop_back();
+  str.pop_back();
+  std::cout << str << "\n"; 
+} 
+
+
+Output: 
+The initial string is : Hai all
+Hai alls
+Hai a
+
