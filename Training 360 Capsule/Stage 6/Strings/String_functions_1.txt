@@ -1,0 +1,1 @@
+String class is a C++ library that supports a lot of functionality over C style strings.
