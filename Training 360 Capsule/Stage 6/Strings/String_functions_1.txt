@@ -34,3 +34,33 @@ int main ()
 Output: 
 ERROR [at line 30]
 
+---------------------------------------------------------------------------------------------------
+
+                            CAPACITY FUNCTIONS 
+
+Q.) 
+Kindly predict the possible output for the given code.
+
+
+
+#include <iostream>
+#include <string>
+
+int main ()
+{
+ std::string str ("Let's try");
+ std::cout<< '\n'<<str.size();
+ str.shrink_to_fit();
+ std::cout<< '\n'<<str.capacity();
+ str.clear();
+ std::cout<< '\n'<<str.size();
+ std::cout<< '\n'<<str.empty();
+ return 0;
+}
+
+Output:
+9
+15
+0
+1 
+
