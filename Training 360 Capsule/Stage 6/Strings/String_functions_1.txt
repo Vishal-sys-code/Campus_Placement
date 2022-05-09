@@ -64,3 +64,36 @@ Output:
 0
 1 
 
+---------------------------------------------------------------------------------------------------
+
+                            ITERATOR FUNCTIONS 
+
+Q.) 
+
+REVERSE YOUR FREIND NAME: 
+
+Your friend wants to see the pronunciation of his/ her name when it gets reversed. Help him/ her to find the reversed string using program.
+
+Case 1: 
+Input (stdin)
+Naveen Kumar
+
+Output (stdout)
+ramuK neevaN
+
+
+Case 2: 
+Input (stdin)
+valentina
+
+Output (stdout)
+anitnelav
+
+Case 3: 
+Input (stdin)
+Rose chris
+
+Output (stdout)
+sirhc esoR
+
+----------------------------------------------------------------------------------------------
