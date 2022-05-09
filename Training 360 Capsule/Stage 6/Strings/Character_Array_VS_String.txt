@@ -1,0 +1,12 @@
+Q.) 
+#include<iostream>
+int main() 
+{
+	char str[] = "Hello world";
+	str.push_back('s');
+	std::cout<<str;
+	return 0;
+}
+
+Output: ERROR
+
