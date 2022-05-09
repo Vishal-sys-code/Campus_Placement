@@ -13,3 +13,22 @@ int main ()
 
 Output: F
 
+Q.) 
+
+Kindly predict the output for the given code.
+
+
+
+#include <iostream>
+#include <string>
+int main ()
+{
+ std::string s ("Strings");
+ s.pop_back();
+ s.back() = '!';
+ s.front()='s';
+ s.at[4]='i';
+ std::cout << s;
+}
+
+Output: 
