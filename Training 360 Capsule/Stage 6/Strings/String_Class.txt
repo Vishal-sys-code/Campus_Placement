@@ -1,0 +1,5 @@
+Class is an entity in C++, which is a named block which consists of variables and functions. 
+
+
+
+A class can be used by creating instances of it, which is called as objects.
