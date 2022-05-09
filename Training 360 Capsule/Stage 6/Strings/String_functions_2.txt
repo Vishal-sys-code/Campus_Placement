@@ -1,0 +1,17 @@
+Q.) 
+#include <iostream>
+#include<string>
+int main() {
+  std::string str1("You ");
+  std::string str2("are ");
+  std::string str3("all ");
+  std::string str4("hardworking");
+  str1+=str2;
+  str1.append(str3);
+  str1.assign(str4,4,7);
+  str1.insert(6,str3,1,4);
+  std::cout<<str1;
+}
+
+Output: workinll g
+
