@@ -12,3 +12,31 @@ Output: ERROR
 
 Character array or C style strings can not be operated with standard operators, whereas, the string objects can be operated with standard operators.
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+                                    C Style String
+
+#include <iostream>
+int main(){
+    char arr[50] = {'H','a','i'};
+    char arr[50] = "Hai";
+    s1 = s1+s2; //ERROR
+    s2 = s1; //ERROR
+    std::sout<<s1[2];
+}
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                           C++ Style String
+
+#include <iostream>
+int main(){
+    std::string str1 = "Hai";
+    std::string str2 = "Hello";
+    str1 = str1+str2;
+    str1 = str2;
+    std::cout << s1.at(0);
+}
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
