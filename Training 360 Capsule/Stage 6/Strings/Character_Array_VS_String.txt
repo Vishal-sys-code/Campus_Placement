@@ -10,3 +10,5 @@ int main()
 
 Output: ERROR
 
+Character array or C style strings can not be operated with standard operators, whereas, the string objects can be operated with standard operators.
+
