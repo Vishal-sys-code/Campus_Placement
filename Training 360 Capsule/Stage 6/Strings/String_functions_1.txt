@@ -97,3 +97,11 @@ Output (stdout)
 sirhc esoR
 
 ----------------------------------------------------------------------------------------------
+
+SUMMARY: 
+
+1.) Element accessing function: []operator, at(), front(), back() 
+2.) Capacity functions: size(), length(), capacity(), shrink_to_fit(), max_size(), resize(), clear(), empty()
+3.) Iterator functions: begin(), end(), rbegin(), rend(), cbegin(), cend(), crbegin(), crend()
+4.) The return values of capacity() and max_size() cannot be determined
+5.) front() and back() cannot be applied to empty strings
