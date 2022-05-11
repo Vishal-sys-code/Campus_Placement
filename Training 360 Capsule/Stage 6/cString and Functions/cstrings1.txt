@@ -53,3 +53,6 @@ int main(){
    std::cout << ch << " is not present in " << ptr << "\n";
 
 }
+
+Output: 
+P is present in Prajith P
