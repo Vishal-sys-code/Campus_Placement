@@ -1,0 +1,30 @@
+Q.) 
+#include<iostream>
+#include<cstring>
+int main()
+{
+  char str1[] = "It's Wednesday and it's mid of the week";
+  char str2[45];
+  strncpy(str2,str1,20);
+  std::cout<<str2<< std::endl;
+  strncat(str2,str1,25);
+  std::cout<<str2<< std::endl;
+}
+
+Output: 
+It's Wednesday and i
+It's Wednesday and iIt's Wednesday and it's m
+
+Q.) 
+#include<iostream>
+#include<cstring>
+int main()
+{
+  char str1[] = "It's Wednesday and it's mid of the week";
+  char str2[45];
+  strncpy(str2,str1,20);
+  std::cout<<str2<< std::endl;
+  strncat(str2,str1,25);
+  std::cout<<str2<< std::endl;
+}
+
