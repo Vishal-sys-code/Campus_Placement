@@ -25,3 +25,31 @@ memcpy()
 memmove()
 
 
+Q.) 
+Prateek is a newbie in C++ programming. He wants to write a program in C++, where he needs to read a string and check whether the string is present.
+
+Solution: 
+
+#include <cstring>
+#include <iostream>
+using namespace std;
+
+int main(){
+
+ char ptr[100];
+
+ char ch;
+
+ cin.getline(ptr,100);
+
+ cin>>ch;
+
+ if(memchr(ptr,ch,10))
+
+   std::cout << ch << " is present in " << ptr <<"\n";
+
+ else
+
+   std::cout << ch << " is not present in " << ptr << "\n";
+
+}
