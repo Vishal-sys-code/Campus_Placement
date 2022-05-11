@@ -1,0 +1,63 @@
+Functions: 
+
+strlen()
+strcmp(s1,s2)
+strncmp(s1,s2,n)
+strcoll(s1,s2)
+strchr(s1,ch)
+strrchr(s1,ch)
+strspn(s1,s2)
+strcspn(s1,s2)
+strpbrk(s1,s2)
+
+
+Q.) 
+
+#include <cstring>
+#include <iostream>
+int main()
+{
+    char str[] = "This a trial version.";
+    char str1[]="George";
+    char str2[]="Georgia";
+    int len = strlen(str);
+    std::cout<<"Length : "<<len<<"\n";
+    std::cout<<"Comparison 1 : "<<strcmp(str1,str2)<<"\n";
+    std::cout<<"Comparison 2 : "<<strncmp(str1,str2,5)<<"\n";
+}
+
+Output: 
+Length : 21
+Comparison 1 : -4
+Comparison 2 : 0
+
+
+Programming assignment: 
+
+Catchy caption
+Company Tesla has kept a contest for catchy caption for the image. They have a rule that the caption should not be more than 10 words. If the caption of a candidate is more than 10 words, then the candidature stands to be disqualified. Can you write a program to check whether a caption is eligible for the contest or not.
+The maximum sizeof the caption is of 100 bytes.
+
+
+
+[Hint:Use functions defined in cstring]
+
+Input (stdin)
+Tide's In - Dirt's Out
+
+Output (stdout)
+Caption eligible for the contest
+
+Input (stdin)
+There are some things money can't buy. For everything else, there's MasterCard.
+
+Output (stdout)
+Caption not eligible for the contest
+
+Input (stdin)
+Good Food, Good Life
+
+Output (stdout)
+Caption eligible for the contest
+
+
