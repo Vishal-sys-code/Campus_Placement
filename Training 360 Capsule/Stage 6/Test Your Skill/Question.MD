@@ -150,7 +150,8 @@ It is correct
 
 <hr>
 
-Remove character except alphabets
+## Remove character except alphabets
+
 In a blind organization, they were playing the typing a keyword game and they want to correct the form of the word. So help them to by writing a program to remove all special symbols and print the characters of a string.
 Input & output Format:
 
