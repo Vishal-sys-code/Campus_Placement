@@ -1,0 +1,17 @@
+Q.) 
+#include <iostream>
+void printIt(const int &x)
+{
+  std::cout << x;
+}
+int main()
+{
+  int a = 1;
+  printIt(a); 
+  const int b = 2;
+  printIt(b); 
+  printIt(3); 
+  printIt(2+b); 
+}
+
+Output: 1234
