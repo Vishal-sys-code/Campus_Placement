@@ -48,3 +48,12 @@ int main()
 
 Output: Error
 
+Q.) 
+#include<iostream>
+int main()
+{
+  const int &ref = 2 + 3; 
+  std::cout << ref; 
+}
+
+Output: 5
