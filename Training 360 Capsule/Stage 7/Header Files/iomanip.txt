@@ -23,3 +23,15 @@ int main () {
 }
 
 Output: ***786
+
+
+Q.) 
+#include <iostream>
+#include <iomanip>
+int main () {
+  float x = 3.14963;
+  std::cout<<std::setpricision(2)<<x;
+  return 0;
+}
+
+Output: Error
