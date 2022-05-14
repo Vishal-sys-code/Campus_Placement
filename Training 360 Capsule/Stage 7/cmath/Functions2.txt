@@ -1,0 +1,78 @@
+Q.) 
+#include<iostream>
+#include<cmath>
+int main() 
+{
+	double a;
+ 	std::cout<<log(0)<<"\n";
+ 	std::cout<<expm1(2.19)<<"\n";
+ 	std::cout<<modf(10, &a)<<"\n";
+ 	std::cout<<a;
+ 	return 0;
+}
+
+Output: 
+-inf
+7.93521
+0
+10
+
+he copysign() function:
+
+
+
+It takes two arguments and returns  a value with the magnitude of first argument and sign of second argument.
+
++5 
+Example:
+
+#include<iostream>
+#include<cmath>
+int main() 
+{
+	int a = 10, b = -20.5;
+    /* Copying the sign of second argument to the first argument */
+ 	std::cout<<copysign(a, b)<<"\n"; 
+ 	return 0;
+}
+
+
+Output:
+
+-10
+
+Q.) 
+#include<iostream>
+#include<cmath>
+int main() 
+{
+	double a = -56.89;
+	double x = 7.5, y = 2.1;
+ 	std::cout<<trunc(a)<<"\n";
+ 	std::cout<<fmod(x, y)<<"\n";
+ 	std::cout<<copysign(a, x);
+ 	return 0;
+}
+
+Output: 
+-56
+1.2
+56.89
+
+Q.) 
+#include<iostream>
+#include<cmath>
+int main() 
+{
+	double x = 7.5, y = 2.1;
+	int q;
+ 	std::cout<<remainder(x, y)<<"\n";
+ 	std::cout<<remquo(x, y, &q)<<"\n";
+ 	std::cout<<q;
+ 	return 0;
+}
+
+Output: 
+-0.9
+-0.9
+4
