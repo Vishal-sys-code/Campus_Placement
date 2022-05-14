@@ -1,0 +1,57 @@
+Can we nest structure within another structure? What do you think?
+
+Ans: Yes
+
+Q.) 
+#include <iostream>
+struct struct1{
+	int x=1;
+};
+struct struct2{
+	int n;
+	struct1 obj2;
+};
+int main(){
+	struct2 obj1;
+	std::cin>>obj1.n;
+	for (int i=1;i<=obj1.n; i++)
+{
+	obj1. obj2.x=obj1. obj2.x * i;	
+}
+std::cout<<obj1. obj2.x;
+}
+
+Output: 
+120
+
+Q.) 
+Suppose you have to create a database for students, what do you prefer for the below structure, where n is the number of students in  class ?
+
+
+
+struct Student
+{
+     int rno;
+     std::string name;
+};
+
+That is also possible. But, it will be hectic if the number of students is a huge number. Therefore, we prefer array of structures.
+
+Q.) 
+#include <iostream>
+#include<cstring>
+struct student
+{
+  char name[30];
+};
+struct student s[2], r[2];
+int main()
+{
+  strcpy(s[0].name,"Mary");
+  s[1] = s[0];
+  r = s;
+  std::cout<< r[0].name<<" "<<r[1].name;
+}
+
+Output:
+Error
