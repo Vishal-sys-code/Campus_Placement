@@ -113,3 +113,33 @@ int main()
 
 Output: 
 Error
+
+
+Q.) 
+
+Find the Correct code for :
+
+#include<iostream> 
+struct Point 
+{ 
+ int x, y, z; 
+}; 
+  
+int main() { 
+ struct Point p1 = {.y = 0,.x = 2, .z = 1}; 
+ std::cout<< p1.x<< p1.y<< p1.z; 
+ return 0; 
+} 
+
+Answer:
+
+#include<iostream>
+struct Point{
+    int y, x, z;
+};
+
+int main(){
+ struct Point p1 {0,2,1};
+ std::cout<< p1.x<< p1.y<< p1.z;
+ return 0;
+}
