@@ -11,3 +11,15 @@ int main ()
 }
 
 Output: -100
+
+
+Q.)
+#include <iostream>
+#include <iomanip>
+int main () {
+  int x = 786;
+  std::cout<<std::setfill('*')<<std::setw(6)<<x;
+  return 0;
+}
+
+Output: ***786
