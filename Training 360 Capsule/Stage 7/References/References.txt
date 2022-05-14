@@ -57,3 +57,13 @@ int main()
 }
 
 Output: 5
+
+
+SUMMARY:
+
+1.) Three types of references
+
+        - References to non-const values
+        - References to const values
+        - r-value references
+2.) Unlike references to non-const values which can be initialized with non-const l-values, references to const values can be initialized with non-const l-value, const l-values, and r-values.
