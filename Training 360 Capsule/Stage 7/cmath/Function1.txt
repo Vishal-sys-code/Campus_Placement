@@ -46,3 +46,20 @@ Syntax => abs(x);
 Syntax => fabs(x);
 3.) fma function
 Syntax => fma(x,y,z);
+
+
+Q.) 
+#include<iostream>
+#include<cmath>
+int main() 
+{
+ 	std::cout<<abs(-28.6)<<"\n";
+ 	std::cout<<fabs(-34.897)<<"\n";
+ 	std::cout<<fma(5, -7, 9)<<"\n";
+ 	return 0;
+}
+
+Output: 
+28
+34.897
+-26
