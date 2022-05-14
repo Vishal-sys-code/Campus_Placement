@@ -1,0 +1,29 @@
+Q.) Do you think structure can have functions inside it in C++?
+Ans: Yes
+
+How to declare functions??
+
+#include <bits/stdc++.h>
+using namespace std;
+
+
+struct students{
+    int roll;
+    int age;
+    int marks;
+    void printDetails(){
+        cout << "Roll" << roll << endl;
+        cout << "Age" << age << endl;
+        cout << "Marks" << marks << endl;
+    }
+};
+
+int main(){
+    student student1 = {456,67,98};
+    student1.printDetails();
+
+
+    student student2 = {895,8,43};
+    student2.printDetails();
+    return 0;
+}
