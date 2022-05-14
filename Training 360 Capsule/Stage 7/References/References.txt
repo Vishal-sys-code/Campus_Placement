@@ -1,0 +1,17 @@
+Q.) 
+#include <iostream>
+int main() {
+  int value{ 48 }; 
+  int &ref{ value }; 
+  std::cout<<ref<<std::endl;
+  std::cout<<value <<std::endl;
+  std::cout<<&value <<std::endl;
+  std::cout<<&ref <<std::endl;
+}
+
+Output:
+48
+48
+0x7ffc032cf2ec
+0x7ffc032cf2ec
+
