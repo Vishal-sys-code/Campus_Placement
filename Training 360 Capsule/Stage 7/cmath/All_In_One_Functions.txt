@@ -1,0 +1,714 @@
+Header files and their functions.
+
+cmath:
+The <cmath> header file declares a set of functions to perform mathematical operations.
+Method
+Description
+C++ abs()
+returns absolute value of an argument
+C++ acos()
+Returns Inverse cosine a Number
+C++ acosh()
+returns hyperbolic cosine of a number
+C++ asin()
+Returns Inverse Sine a Number
+C++ asinh()
+returns arc hyperbolic sine of a number
+C++ atan()
+Returns Inverse tangent a Number
+C++ atan2()
+Returns Inverse Tangent of a Coordinate
+C++ atanh()
+returns arc hyperbolic tangent of a number
+C++ cbrt()
+Computes Cube Root of a Number
+C++ ceil()
+Return ceiling value of number
+C++ copysign()
+returns num with value of first and sign of second
+C++ cos()
+Returns Cosine of the Argument
+C++ cosh()
+Returns Hyperbolic Cosine of an Angle
+C++ exp()
+returns exponential (e) raised to a number
+C++ exp2()
+Returns 2 raised to a Number
+C++ expm1()
+Returns e raised to Power Minus 1
+C++ fabs()
+returns absolute value of argument
+C++ fdim()
+Returns Positive Different Between Arguments
+C++ floor()
+Returns floor value of decimal number
+C++ fma()
+Returns Fused Multiply–Accumulate
+C++ fmax()
+returns largest among two arguments passed
+C++ fmin()
+returns smallest among two given arguments
+C++ fmod()
+Computes floating point remainder of division
+C++ frexp()
+breaks float to its binary significand
+C++ hypot()
+Returns Square Root of sum of square of Arguments
+C++ ilogb()
+returns integral part of logarithm of |x|
+C++ ldexp()
+returns product of x and 2 raised to the power e
+C++ llrint()
+Rounds argument using current rounding mode
+C++ llround()
+Rounds argument to nearest long long int value
+C++ log()
+Returns Natural Logarithm of a Number
+C++ log10()
+Returns Base 10 Logarithm of a Number
+C++ log1p()
+returns natural logarithm of x+1.
+C++ log2()
+returns base2 logarithm of a number
+C++ logb()
+returns logarithm of |x|
+C++ lrint()
+Rounds argument using current rounding mode
+C++ lround()
+Returns the long int value nearest to the argument
+C++ modf()
+Breaks Number Into Integral and Fractional Part
+C++ nan()
+returns a quiet NaN value
+C++ nearbyint()
+Rounds argument to using current rounding mode
+C++ nextafter()
+returns next value after x in direction of y
+C++ nexttoward()
+returns next value after x in direction of y
+C++ pow()
+Computes Power a Number
+C++ remainder()
+Returns remainder of x/y
+C++ remquo()
+Computer remainder and stores quotient of x/y
+C++ rint()
+Rounds argument using current rounding mode
+C++ round()
+Returns integral value nearest to argument
+C++ scalbln()
+Scales x by FLT_RADIX to the power n
+C++ scalbn()
+Scales x by FLT_RADIX to the power n
+C++ sin()
+Returns Sine of the Argument
+C++ sinh()
+returns hyperbolic sine of an angle
+C++ sqrt()
+Computes Square Root of A Number
+C++ tan()
+Returns Tangent of the Argument
+C++ tanh()
+returns hyperbolic tangent of an angle
+C++ trunc()
+Truncates the decimal part of a number
+
+
+
+
+ 
+
+
+cstdlib:
+
+The <cstdlib> header file declares a set of general purpose functions such as: atof() to convert string to Double.
+
+  
+  Method
+
+Description
+C++ abs()
+returns absolute value of an integer
+C++ atexit()
+registers function to be called on termination
+C++ atof()
+Converts String to Double
+C++ atol()
+Converts String to Integer
+C++ at_quick_exit()
+registers function and calls on quick
+ termination
+C++ bsearch()
+performs binary search on sorted array
+C++ calloc()
+allocates block of memory and initializes to
+ zero
+C++ div()
+computes integral quotient and remainder of
+ number
+C++ free()
+deallocates a block of memory
+C++ getenv()
+returns pointer to environment variable passed
+C++ labs()
+returns absolute value of long or long int
+ number
+C++ ldiv()
+computes integral division of long int numbers
+C++ llabs()
+returns absolute value of a long long int data
+C++ lldiv()
+computes integral division of two long long int.
+C++ malloc()
+allocates a block of unitialized memory
+C++ mblen()
+determines size of a multibyte character
+C++ mbstowcs()
+converts multibyte char string to wide char seq
+C++ mbtowc()
+converts multibyte character to a wide character
+C++ qsort()
+sorts array using quick-sort algorithm
+C++ quick_exit()
+causes termination without cleaning resources
+C++ realloc()
+reallocates a block of previously allocated
+ memory
+C++ srand()
+seeds pseudo random number for rand()
+C++ strtod()
+returns string float to double
+C++ strtol()
+Converts a string to number
+C++ strtoll()
+converts string to long long int in C++
+C++ strtoull()
+converts string to unsigned long long int
+C++ wcstombs()
+converts wide character string to multibyte seq
+
+
+
+C++ wctomb()
+converts wide character to a multibyte character
+C++ _Exit()
+causes termination without cleanup tasks
+
+
+
+
+
+
+
+iostream:
+
+Header that defines the standard input/output stream objects.
+
+Narrow characters (char)
+cin -  Standard input stream (object)
+cout  - Standard output stream (object)
+cerr  - Standard output stream for errors (object)
+clog -  Standard output stream for logging (object)
+
+Wide characters (wchar_t)
+wcin - Standard input stream (wide) (object)
+wcout - Standard output stream (wide) (object)
+wcerr - Standard output stream for errors (wide-oriented) (object)
+wclog - Standard output stream for logging (wide) (object)
+
+
+
+
+cstring
+This header file defines several functions to manipulate C strings and arrays.
+
+
+Method
+Description
+C++ memchr()
+searches for character in string
+C++ memcmp()
+compares two pointer objects
+C++ memcpy()
+copies block of memory from source to destination
+C++ memmove()
+copies memory even if there is overlapping blocks
+C++ memset()
+copies character to beginning of string n times
+C++ strcat()
+appends copy of string to end of another string
+C++ strchr()
+searches for character in string
+C++ strcmp()
+compare two strings
+C++ strcoll()
+compares two null terminated string
+C++ strcpy()
+copies character string from source to destination
+C++ strcspn()
+searches a string for characters in another string
+C++ strerror()
+gives description of system error code
+C++ strlen()
+returns length of given string
+C++ strncat()
+appends string to end of another string
+C++ strncmp()
+compares two strings lexicographically
+C++ strncpy()
+copies character string from source to destination
+C++ strpbrk()
+search characters in one string in another string
+C++ strrchr()
+searches last occurence of a character in string
+C++ strspn()
+gives length of maximum initial segment
+C++ strstr()
+finds first occurrence of a substring in string
+C++ strtok()
+split string based on delimiter
+C++ strxfrm()
+transform byte string into implementation def form
+
+
+
+
+
+
+
+
+cctype:
+The <cctype> header file declares a set of functions to classify (and transform) individual characters.
+
+Method
+Description
+C++ isalpha()
+checks if given character is alphabet or not
+C++ isblank()
+checks if given character is a blank character
+C++ iscntrl()
+checks if given character is control character
+C++ isdigit()
+checks if given character is a digit or not
+C++ isgraph()
+checks if given character is graphic or not
+C++ islower()
+checks if given character is lowercase
+C++ isprint()
+check if given character is printable or not
+C++ ispunct()
+check if given character is punctuation character
+C++ isspace()
+check if given character is whitespace character
+C++ isupper()
+check if given character is uppercase or not
+C++ isxdigit()
+checks if given character is hexadecimal character
+C++ tolower()
+converts a given character to lowercase
+C++ toupper()
+converts a given character to uppercase
+
+
+
+
+
+csignal:
+The <csignal> header file declares two functions signal() and raise() to handle signals. A signal can report some exceptional behavior within the program, or a signal can report some asynchronous event outside the program.
+Method
+Description
+C++ raise()
+sends signal to the program
+C++ signal()
+sets error handler for specified signal
+
+
+
+
+clocale:
+The <clocale> header file declares a set of functions and a type for internationalization support tasks such as date/time formatting, monetary formatting etc.
+Method
+Description
+C++ localeconv()
+returns current locale formatting rules
+C++ setlocale()
+sets locale information for the current program
+
+
+cwctype:
+The <cwctype> header file declares a set of functions for classifying (and transforming) individual wide characters.
+
+
+Method
+Description
+C++ iswalnum()
+checks if given wide character is alphanumeric
+C++ iswalpha()
+checks if given wide character is an alphabet
+C++ iswblank()
+checks if given wide character is blank character
+C++ iswcntrl()
+checks if given wide char is control character
+C++ iswctype()
+checks if given wide char has certain property
+C++ iswdigit()
+checks if given wide character is digit or not
+C++ iswgraph()
+checks if wide char has graphical representation
+C++ iswlower()
+checks if given wide character is lowercase
+C++ iswprint()
+checks if given wide character can be printed
+C++ iswpunct()
+checks if given wide character is punctuation
+C++ iswspace()
+checks if given wide character is wide whitespace
+C++ iswupper()
+checks if given wide character is uppercase
+C++ iswxdigit()
+checks if given wide character is hexadecimal num
+C++ towctrans()
+transforms a given wide character
+C++ towlower()
+converts given wide character to lowercase
+C++ towupper()
+converts given wide character to uppercase
+C++ wctrans()
+returns current transformation for wide character
+C++ wctype()
+returns wide character classification
+
+
+cstdio:
+The <cstdio> header file includes several types macros and functions of C-style input/output library. 
+
+
+Method
+Description
+C++ clearerr()
+resets error flags and EOF indicator for stream
+C++ fclose()
+closes given file stream
+C++ feof() function
+checks if file stream EOF has been reached or not
+C++ ferror()
+checks for errors in given stream
+C++ fflush()
+flushes any buffered data to the respective device
+C++ fgetc()
+reads the next character from given input stream
+C++ fgetpos()
+gets current file position
+C++ fgets()
+reads n number of characters from file stream
+C++ fopen()
+opens specified file
+C++ fprintf()
+write a formatted string to file stream
+C++ fputc()
+writes character to given output stream
+C++ fputs()
+writes string to file stream
+C++ fread()
+reads specified no. of characters from stream
+C++ freopen()
+opens a new file with stream associated to another
+C++ fscanf()
+read data from file stream
+C++ fseek()
+sets file position indicator for given file stream
+C++ fsetpos()
+sets stream file pointer to given position
+C++ ftell()
+returns current position of file pointer
+C++ fwrite()
+writes specified number of characters to stream
+C++ getc()
+reads next character from input stream
+C++ getchar()
+reads next character from stdin
+C++ gets()
+reads line from stdin
+C++ perror()
+prints error to stderr
+C++ printf()
+write formatted string to stdout
+C++ putc()
+writes character to given output stream
+C++ putchar()
+writes a character to stdout
+C++ puts()
+writes string to stdout
+C++ remove()
+deletes the specified file
+C++ rename()
+renames or moves specified file
+C++ rewind()
+sets file position to beginning of stream
+C++ scanf
+read data form stdin
+C++ setbuf()
+sets the internal buffer to be used for I/O
+C++ setvbuf()
+change or specify buffering mode and buffer size
+C++ snprintf()
+write formatted string to character string buffer
+C++ sprintf()
+write a formatted string to buffer
+C++ sscanf()
+read data from string buffer
+C++ tmpfile()
+creates temporary file with auto-generated name
+C++ tmpnam()
+generates unique filename
+C++ ungetc()
+push previously read character back to the stream
+C++ vfprintf()
+write formatted string to file stream
+C++ vfscanf()
+read data from a file stream
+C++ vprintf()
+printf but takes args from vlist instead
+C++ vscanf()
+read data from stdin
+C++ vsnprintf()
+write formatted string to string buffer
+C++ vsprintf()
+write formatted string to a string buffer
+C++ vsscanf()
+read data from a string buffer
+
+
+
+cwchar:
+The <cwchar> header file declares a set of functions to work with C wide character string (a computer character datatype that generally has a size greater than the traditional 8-bit character).
+
+
+Method
+Description
+C++ btowc()
+converts character to its wide character
+C++ fgetwc()
+reads next wide character from given input stream
+C++ fgetws()
+reads specified num of wide characters from stream
+C++ fputwc()
+writes wide character to the given output stream
+C++ fputws()
+writes wide string except null wide char to output
+C++ fwide()
+set or query orientation of given file stream
+C++ fwprintf()
+write formatted wide string to a file stream
+C++ fwscanf()
+reads wide character from file stream
+C++ getwc()
+reads next wide character from input stream
+C++ getwchar()
+reads next wide character from stdin
+C++ mbrlen()
+determines size in bytes of a multibyte character
+C++ mbrtowc()
+converts narrow multibyte char to wide char
+C++ mbsinit()
+describe initial conversion state of mbstate_t obj
+C++ mbsrtowcs()
+convert narrow multibyte char seq to wide char seq
+C++ putwc()
+writes wide character to the given output stream
+C++ putwchar()
+writes wide character to stdout
+C++ swprintf()
+write formatted wide string to wide string buffer
+C++ swscanf()
+reads wide character from wide string buffer
+C++ ungetwc()
+push previously read wide character back to stream
+C++ vfwprintf()
+write formatted wide string to a file stream
+C++ vfwscanf()
+read wide character string from a file stream
+C++ vswprintf()
+write formatted wide string to wide string buffer
+C++ vswscanf()
+read wide character string from wide string buffer
+C++ vwprintf()
+write formatted wide string to stdout
+C++ vwscanf()
+read wide character from stdin
+C++ wcrtomb()
+convert wide character to its narrow multibyte rep
+C++ wcscat()
+appends copy of wide string to the end of another
+C++ wcschr()
+searches for a wide character in a wide string
+C++ wcscmp()
+lexicographically compares two wide string
+C++ wcscoll()
+compares two null terminated wide string
+C++ wcscpy()
+copies wide character string from source to dest
+C++ wcscspn()
+returns number of wide char before first occurence
+C++ wcsftime()
+converts given date and time to wide character str
+C++ wcslen()
+returns length of the given wide string
+C++ wcsncat()
+appends specified num of wide char to another str
+C++ wcsncmp()
+compares specified number of wide char of strings
+C++ wcsncpy()
+copies specified number of wide characters
+C++ wcspbrk()
+searches for set of wide char in given wide string
+C++ wcsrchr()
+searches last occurrence of wide char in string
+C++ wcsrtombs()
+convert wide char seq to narrow multibyte char seq
+C++ wcsspn()
+returns length of maximum initial segment
+C++ wcsstr()
+finds first occurrence of wide substring in a str
+C++ wcstod()
+converts wide string float number to double
+C++ wcstof()
+converts wide string float number to float
+C++ wcstok()
+returns next token in null terminated wide string
+C++ wcstol()
+converts wide string float number to long int
+C++ wcstold()
+converts wide string float number to long double
+C++ wcstoll()
+converts wide string of specified base to int
+C++ wcstoul()
+converts wide str of given base to unsigned long
+C++ wcstoull()
+converts wide string num to unsigned long long
+C++ wcsxfrm()
+transforms wide string to implementation defined
+C++ wctob()
+converts wide character to single byte character
+C++ wmemchr()
+searches for first occurrence of wide char
+C++ wmemcmp()
+compares wide chars of two wide strings
+C++ wmemcpy()
+copies specified num of wide char from src to dest
+C++ wmemmove()
+moves wide chars from src to dest
+C++ wmemset()
+copies single wide char for a certain num of time
+C++ wprintf()
+write formatted wide string to stdout
+C++ wscanf()
+reads wide character from stdin
+
+
+
+cuchar:
+The <cuchar> header file declares a set of functions to convert between multibyte characters and UTF-16 or UTF-32.
+
+It also contains two macros __STDC_UTF_16__, and __STDC_UTF_32__.
+
+Method
+Description
+C++ c16rtomb()
+converts 16 bit char to narrow multibyte char
+C++ c32rtomb()
+converts 32 bit char to narrow multibyte char
+C++ mbrtoc16()
+converts narrow multibyte char to 16 bit char
+C++ mbrtoc32()
+converts narrow multibyte char to 32 bit char
+
+
+csetjmp:
+The <csetjmp> header file declares longjmp(), setjmp() and a type jmp_buf which are used to deviate program from the usual subroutine call and return sequence (non-local jumps).
+
+Method
+Description
+C++ longjmp() and setjmp()
+restores previously saved environment
+
+
+cfenv:
+
+The <cfenv> declares a set of functions to work with floating-point environment.
+
+The floating point environment is a set of status flags, and control modes of a floating-point.
+
+Method
+Description
+C++ feclearexcept()
+attempts to clear floating point exception flags
+C++ fegetenv()
+store status of floating point env in an object
+C++ fegetexceptflag()
+gets floating point exception flags
+C++ fegetround()
+gets round direction mode
+C++ feholdexcept()
+saves and clear floating point status flags
+C++ feraiseexcept()
+raises floating point exceptions specified
+C++ fesetenv()
+set floating point environment
+C++ fesetexceptflag()
+sets given floating point exceptions to the env
+C++ fesetround()
+set rounding direction
+C++ fetestexcept()
+tests floating point exception
+C++ feupdateenv()
+updates floating point environment
+
+
+
+
+
+
+
+
+ctime:
+
+A call to ctime(time) is a combination of asctime() and localtime() functions, as asctime(localtime(time)).
+
+It is defined in <ctime> header file.
+
+ctime() prototype
+char* ctime(const time_t* time_ptr);
+
+The ctime() function takes a pointer to time_t object as its parameter and returns a text representation of the form:
+
+Www Mmm dd hh:mm:ss yyyy
+
+
+ctime() time representation
+Type
+Description
+Values
+Www
+3 letter day of week
+Mon to Sun
+Mmm
+3 letter month name
+Jan to Dec
+dd
+2 digit day of month
+00 to 31
+hh
+2 digit hour
+00 to 23
+mm
+2 digit minute
+00 to 59
+ss
+2 digit second
+00 to 59
+yyyy
+4 digit year
+4 digit year
+
+
