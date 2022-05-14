@@ -1,0 +1,3 @@
+C++ supports large number of useful mathematical functions.
+
+In some cases, instead of focusing on implementation, you can directly use the in-built mathematical functions.
