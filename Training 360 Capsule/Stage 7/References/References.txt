@@ -15,3 +15,18 @@ Output:
 0x7ffc032cf2ec
 0x7ffc032cf2ec
 
+Q.) 
+#include <iostream>
+int main() {
+  int value1{ 5 };
+  int value2{ 6 };
+  int &ref{ value1 }; 
+  std::cout<<ref<<" ";
+  ref = value2; 
+  std::cout<<ref<<" ";
+  ref = value2; 
+  std::cout<<ref<<" ";
+}
+
+Output:
+5 6 6 
