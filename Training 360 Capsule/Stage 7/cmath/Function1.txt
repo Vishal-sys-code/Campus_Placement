@@ -1,3 +1,38 @@
 C++ supports large number of useful mathematical functions.
 
 In some cases, instead of focusing on implementation, you can directly use the in-built mathematical functions.
+
+Q.) 
+#include <iostream>
+#include <cmath>
+int main() {
+ 	double x = -56.8;
+	int y = 56;
+ 	std::cout<<fmin(x, y)<<"\n";
+ 	std::cout<<fmax(x, y)<<"\n";
+ 	std::cout<<fdim(x, y)<<"\n";
+ 	return 0;
+}
+
+Output: 
+-56.8
+56
+0
+
+Q.) 
+#include<iostream>
+#include<cmath>
+int main() 
+{
+ 	std::cout<<sqrt(2)<<"\n";
+ 	std::cout<<cbrt(8)<<"\n";
+ 	std::cout<<pow(2, 3.2)<<"\n";
+ 	std::cout<<hypot(2, 3);
+ 	return 0;
+}
+
+Output: 
+1.41421
+2
+9.18959
+3.60555
