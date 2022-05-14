@@ -36,3 +36,13 @@ Output:
 2
 9.18959
 3.60555
+
+-------------------------------------------------------------------------------------------------------
+SOME IMPORTANT FUCNTIONS: 
+
+1.) abs function
+Syntax => abs(x);
+2.) fabs function 
+Syntax => fabs(x);
+3.) fma function
+Syntax => fma(x,y,z);
