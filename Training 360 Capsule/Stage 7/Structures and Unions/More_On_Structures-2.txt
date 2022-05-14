@@ -28,3 +28,33 @@ int main() {
 
 Output: 8
 
+Q.)
+#include <iostream>
+struct node  
+{  
+  int i;  
+  char b;
+  float j;  
+};  
+struct node s; 
+int main() {
+  std::cout<<sizeof(s);
+}
+
+Output: 12
+
+Q.)
+#include <iostream>
+struct node  
+{  
+  int i;  
+  char b;
+  float j; 
+  double d;
+};  
+struct node s; 
+int main() {
+  std::cout<<sizeof(s);
+}
+
+Output: 24
