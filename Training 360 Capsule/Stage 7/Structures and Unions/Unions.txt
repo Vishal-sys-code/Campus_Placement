@@ -1,0 +1,32 @@
+A union is a user defined data type which may hold members of different sizes and type. All members of a union share the same memory location. 
+
+Q.)
+#include<iostream>
+int main()
+{
+  union
+  {
+    int a;
+    const char* p;
+  };
+  a = 1;
+  p = "Jennifer";
+  std::cout<<p;
+}
+
+Output: Jennifer
+
+Q.)
+#include <iostream>
+union
+{
+    int x;
+    char y;
+}p;
+int main()
+{
+    p.x = 10;
+    std::cout<<sizeof(p);
+}
+
+Output: 4
