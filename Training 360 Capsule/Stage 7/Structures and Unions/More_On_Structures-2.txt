@@ -1,0 +1,30 @@
+Q.) Can a structure variable be a pointer? What do you think?
+Ans : Yes
+Explanation: You can have a structure variable as a pointer type. It is referred as pointer to structure.
+
+Q.) 
+Kindly predict the output for the code given below. Among the following statements, which is the correct statement for s?
+
+struct node  
+{  
+   int i;  
+   float j;  
+};  
+struct node *s[10]; 
+
+Answer: An array, each element of which is a pointer to a structure of type node
+
+Q.) 
+#include <iostream>
+struct node  
+{  
+  int i;  
+  float j;  
+};  
+struct node s; 
+int main() {
+  std::cout<<sizeof(s);
+}
+
+Output: 8
+
