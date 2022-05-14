@@ -1,0 +1,13 @@
+
+iomanip is a library that is used to manipulate the output of C++ program.
+
+Q.)
+#include <iostream>
+#include <iomanip>
+int main () 
+{
+  std::cout << std::showpos<<-100;
+  return 0;
+}
+
+Output: -100
