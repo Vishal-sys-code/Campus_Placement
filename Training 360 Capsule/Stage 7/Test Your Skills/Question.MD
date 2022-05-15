@@ -287,3 +287,57 @@ Year of establishment:2008
 Pass percentage:97.35
 
 <hr>
+
+Difference Between Two Time Periods
+Write a program to calculate difference between two time periods
+INPUT FORMAT:
+
+Input 1 : hours,minutes and seconds
+
+Input 2 : hours,minutes and seconds
+
+OUTPUT FORMAT:
+
+TIME DIFFERENCE
+
+SAMPLE INPUT:
+
+12 15 24 
+
+8 15 23                                            
+
+SAMPLE OUTPUT:                                                                        
+
+4:0:1
+
+Case 1
+```
+Input (stdin)
+12 15 24
+8 15 23
+
+Output (stdout)
+4:0:1
+```
+
+Case 2:
+```
+Input (stdin)
+8 12 21
+6 10 21
+
+Output (stdout)
+2:2:0
+```
+
+Case 3:
+```
+Input (stdin)
+11 12 12
+6 23 21
+
+Output (stdout)
+4:48:51
+```
+
+<hr>
