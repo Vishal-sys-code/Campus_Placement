@@ -288,7 +288,8 @@ Pass percentage:97.35
 
 <hr>
 
-Difference Between Two Time Periods
+## Difference Between Two Time Periods
+
 Write a program to calculate difference between two time periods
 INPUT FORMAT:
 
