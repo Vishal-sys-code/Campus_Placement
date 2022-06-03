@@ -1,0 +1,14 @@
+#include <iostream>
+int main(){
+    std::cout << "Hello World";
+}
+
+-----------------------------------------------
+
+#include <bits/stdc++.h>
+#include <iostream>
+using namespace std;
+
+int main(){
+    cout << "Hello World";
+}
