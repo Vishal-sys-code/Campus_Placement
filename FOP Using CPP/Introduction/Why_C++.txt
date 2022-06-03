@@ -1,0 +1,7 @@
+Summary:
+
+1.) Every program consists of a structure
+    - Comments
+    - Inclusion of header files
+    - Functions
+    - Statements
