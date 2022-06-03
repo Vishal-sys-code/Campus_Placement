@@ -5,3 +5,5 @@ Summary:
     - Inclusion of header files
     - Functions
     - Statements
+
+2.) To print something on the screen you have to write cout Statement
