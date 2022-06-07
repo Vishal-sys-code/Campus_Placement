@@ -1,9 +1,0 @@
-Summary:
-
-1.) Every program consists of a structure
-    - Comments
-    - Inclusion of header files
-    - Functions
-    - Statements
-
-2.) To print something on the screen you have to write cout Statement
