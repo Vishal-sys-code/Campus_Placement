@@ -12,8 +12,10 @@ int main(){
         }
     }
     if(n == sum){
-        cout <<  << endl;
+        cout << "They can read message" << endl;
     }
-    
+    else{
+        cout << "They can't read message" << endl;
+    }
     return 0;
 }
