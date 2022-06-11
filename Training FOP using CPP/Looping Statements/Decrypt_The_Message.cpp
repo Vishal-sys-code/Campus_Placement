@@ -11,6 +11,9 @@ int main(){
             sum += i;
         }
     }
+    if(n == sum){
+        cout <<  << endl;
+    }
     
     return 0;
 }
