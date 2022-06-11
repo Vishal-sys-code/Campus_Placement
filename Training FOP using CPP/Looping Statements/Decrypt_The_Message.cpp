@@ -15,7 +15,7 @@ int main(){
         cout << "They can read the message" << endl;
     }
     else{
-        cout << "They can't read message" << endl;
+        cout << "They can't read the message" << endl;
     }
     return 0;
 }
